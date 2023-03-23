@@ -1,0 +1,509 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-image: url("https://i.pinimg.com/originals/f4/48/7e/f4487ee7dfe206cf618f3f8773a65f4c.gif");
+}
+.navbar {
+  width: 90%;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+
+  position: fixed;
+  background-color: black;
+
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+}
+
+header section {
+  width: 91%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header section aside a {
+  font-size: 16px;
+  text-decoration: none;
+  font-family: "ALK Sanet", sans-serif;
+}
+header section nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  width: fit-content;
+}
+header section nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.navbar-brand {
+  color: white;
+}
+.nav-link {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+.nav-link:hover {
+  color: black;
+  background-color: white;
+  transition: 1.5s;
+  font-size: 20px;
+}
+
+main {
+  width: 100%;
+}
+
+main section {
+  width: 100%;
+}
+main .baner {
+  height: 1000px;
+  width: 100%;
+  position: relative;
+}
+
+.id4 {
+  width: 100%;
+  height: 1000px;
+}
+.absolut {
+  position: absolute;
+  top: 250px;
+  padding: 10px;
+}
+.absolut img {
+  width: 500px;
+  margin-left: 400px;
+  margin-top: 600px;
+}
+
+main .baner h1 {
+  font-size: 55px;
+  font-weight: bolder;
+  color: white;
+  position: relative;
+  font-weight: 400;
+
+  letter-spacing: 0.55em;
+  z-index: 33333;
+
+  text-align: center;
+  font-family: "ALK Life", sans-serif;
+}
+
+/* jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj */
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.nav {
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* bbbbbbbbbbbbbbbbbbbbbbbb */
+.after {
+  display: none;
+}
+.box {
+  position: relative;
+
+  z-index: 1001;
+  border-radius: 20px;
+  overflow: hidden;
+
+  max-width: 1200px;
+  padding: 4rem;
+  margin: auto;
+  width: 100%;
+  height: 800px;
+  margin-top: 100px;
+}
+.box::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 950px;
+  height: 850px;
+  background: linear-gradient(0deg, transparent, #45f3ff, #45f3ff);
+
+  transform-origin: bottom right;
+  animation: animate 3s linear infinite;
+}
+.box::after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 700px;
+  height: 850px;
+  background: linear-gradient(0deg, transparent, #45f3ff, #45f3ff);
+
+  transform-origin: bottom right;
+  animation: animate 3s linear infinite;
+  animation-delay: -5%;
+}
+.form {
+  position: absolute;
+  inset: 4px;
+  border-radius: 20px;
+  background-color: black;
+  z-index: 100;
+  padding: 50px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999999;
+}
+
+.nav {
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.box {
+  color: white;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  position: relative;
+}
+
+.cart-count {
+  position: absolute;
+  background-color: #2f3542;
+  top: -5px;
+  right: 0;
+  padding: 3px;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  border-radius: 50%;
+  z-index: 99;
+}
+
+#cart-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding-top: 10px;
+}
+
+.car {
+  width: 2005px;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 4rem;
+  margin: auto;
+  width: 100%;
+  height: 600px;
+  margin-top: 200px;
+}
+
+h2.title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+}
+
+.shop-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+  gap: 1.5rem;
+  justify-content: center;
+  align-content: center;
+}
+
+.food-box {
+  position: relative;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 1px 4px rgba(40, 37, 37, 0.1);
+  border-radius: 3px;
+}
+
+.pic {
+  overflow: hidden;
+}
+.pic .car {
+  max-width: 200px;
+}
+
+.pic:hover .car {
+  transform: scale(1.5);
+  transition: 1.5s;
+}
+
+.food-img {
+  transition: 0.4s;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.food-title {
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+}
+
+.food-price {
+  color: black;
+  font-weight: bold;
+}
+
+.add-cart {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #2ed573;
+  color: white;
+  padding: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.add-cart:hover {
+}
+
+.cart {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 400px;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 1px 4px rgba(40, 37, 37, 0.1);
+  z-index: 100;
+}
+
+.cart-active {
+  right: 0;
+  transition: 0.5s;
+}
+
+.cart-title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.cart-box {
+  display: grid;
+  grid-template-columns: 32% 50% 18%;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 10px;
+}
+
+.cart-img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  padding: 5px;
+}
+.detail-box {
+  display: grid;
+  row-gap: 0.5rem;
+}
+
+.price-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-food-title {
+  font-size: 1rem;
+  text-transform: uppercase;
+
+  font-weight: 500;
+}
+
+.cart-price {
+  font-weight: 500;
+}
+
+.cart-quantity {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  outline: none;
+  width: 2.4rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.cart-remove {
+  font-size: 24px;
+
+  cursor: pointer;
+}
+
+.total {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+}
+
+.total-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.total-price {
+  margin-left: 0.5rem;
+}
+
+.btn-buy {
+  padding: 12px 20px;
+
+  color: #fff;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#cart-close {
+  position: absolute;
+  top: 1rem;
+  right: 0.8rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+/* search */
+* {
+  box-sizing: border-box;
+}
+
+.search-box {
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+}
+.input-search {
+  height: 50px;
+  width: 50px;
+  border-style: none;
+  padding: 10px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  outline: none;
+  border-radius: 25px;
+  transition: all 0.5s ease-in-out;
+  background-color: aqua;
+  padding-right: 40px;
+  color: #fff;
+}
+.input-search::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+.btn-search {
+  width: 50px;
+  height: 50px;
+  border-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  color: #ffffff;
+  background-color: transparent;
+  pointer-events: painted;
+}
+.btn-search:focus ~ .input-search {
+  width: 300px;
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  transition: all 500ms cubic-bezier(0, 0.11, 0.35, 2);
+}
+.input-search:focus {
+  width: 300px;
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  transition: all 500ms cubic-bezier(0, 0.11, 0.35, 2);
+}
+
+/*  footer   */
+
+/* footer  */
